@@ -1,0 +1,42 @@
+/* src/components/Store.css */
+
+.store {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .items-list {
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+  }
+  
+  .item {
+    border: 1px solid #f2e4e4;
+    padding: 20px; /* Increase padding for better spacing */
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 80%; /* Adjust width of each item */
+    max-width: 400px; /* Limit maximum width */
+  }
+  
+  .item img {
+    max-width: 100%; /* Ensure images take full width of their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 20px; /* Center images horizontally and add margin */
+    border-radius: 5px; /* Rounded corners for images */
+  }
+  
+  .item p {
+    margin-top: 10px; /* Add margin between image and price */
+    font-weight: bold; /* Make price text bold */
+  }
+  
+  .item:hover {
+    background-color: #120505;
+  }
+  

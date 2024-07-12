@@ -1,0 +1,49 @@
+/* src/components/ContactUs.css */
+
+body {
+    background-image: url('./images/home.jpg');
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; /* Example font-family */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure full height of viewport */
+}
+
+.contact-us {
+    text-align: left; /* Align text to the left */
+    padding: 25px;
+    color: aliceblue;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.contact-heading {
+    text-align: left;
+    color: aliceblue; /* Adjust left margin as needed */
+    margin-right: 20px; /* Added right margin */
+}
+
+.contact-details {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8); /* Example background color with opacity */
+    text-align: left; /* Align text to the left */
+}
+
+.contact-info {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contact-details p:first-child {
+    font-weight: bold;
+}
+
+.contact-details p:not(:first-child) {
+    color: #555;
+}

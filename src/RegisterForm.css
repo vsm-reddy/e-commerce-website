@@ -1,0 +1,93 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+}
+
+.login-form {
+    background-color: #1a1a1a; /* Dark grey background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff; /* White text */
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-form h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Darker input background */
+    color: #fff; /* White text */
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Darker button background */
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #555; /* Slightly lighter on hover */
+}
+
+.register-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.register-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+.register-section p {
+    margin: 0;
+}
+
+.register-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-section a:hover {
+    text-decoration: underline;
+}
